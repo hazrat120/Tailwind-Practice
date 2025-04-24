@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section>
+      <!-- header section -->
+      <div class="container mx-auto px-4 flex justify-between my-4">
+        <div class="cursor-pointer">
+          <img src="./images/brand_logo.png" alt="not found" />
+        </div>
+
+        <div class="flex text-center justify-center items-center">
+          <ul
+            class="font-poppins text-sm text-gray-800 uppercase font-bold flex gap-4"
+          >
+            <li class="cursor-pointer hover:text-gray-600">Menu</li>
+
+            <li class="cursor-pointer hover:text-gray-600">Location</li>
+
+            <li class="cursor-pointer hover:text-gray-600">About</li>
+
+            <li class="cursor-pointer hover:text-gray-600">Contact</li>
+          </ul>
+        </div>
+
+        <div class="cursor-pointer flex items-center">
+          <a
+            href="#"
+            class="font-popping cursor-pointer font-popping bg-red-600 px-4 py-1 text-white hover:bg-white hover:text-red-600 hover:border-red-600 border-2 border-red-600 transition ease-in-out duration-300 font-bold"
+            >Login</a
+          >
+        </div>
+      </div>
+
+      <!-- hero section -->
+      <div class="my-15 container mx-auto px-8 flex justify-between">
+        <div class="bg-white w-1/2">
+          <h1
+            class="font-poppins text-8xl uppercase font-bold text-black-800 mb-9"
+          >
+            Your feet deserve the best
+          </h1>
+          <p
+            class="font-poppins text-gray-600 uppercase font-semibold mb-9 w-2/3"
+          >
+            YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
+            SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
+            SHOES.
+          </p>
+
+          <div class="font-poppins font-bold flex gap-8 mb-5 capitalize">
+            <button
+              class="bg-red-600 text-white px-4 py-1 text-lg hover:bg-white hover:text-red-600 border-2 border-red-600 hover:border-red-600 transition ease-in-out duration-400"
+            >
+              Shop Now
+            </button>
+
+            <button
+              class="text-gray-500 px-4 py-1 text-lg hover:bg-white hover:text-red-600 border-2 border-gray-500 hover:border-red-600 transition ease-in-out duration-400"
+            >
+              Category
+            </button>
+          </div>
+
+          <div class="capitalize font-poppins text-gray-400 text-sm">
+            <p class="mb-4">Also Available On</p>
+            <div class="flex gap-4">
+              <img src="./images/flipkart.png" alt="not found" />
+              <img src="./images/amazon.png" alt="not found" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white w-1/2">
+          <img src="./images/shoe_image.png" alt="not found" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
